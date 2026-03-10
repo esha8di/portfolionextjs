@@ -7,7 +7,7 @@ const projects = [
       "Built a blood donation platform connecting donors and recipients with secure JWT authentication. Streamlined donation requests and management for efficient coordination.",
     tech: "MERN Stack, JWT Authentication",
     image:
-      "https://images.unsplash.com/photo-1581595219315-a187dd40c322?w=1200",
+      "/blooddonation.png",
     github: "https://github.com/esha8di/Blood-Donation-App",
     live: "https://blooddonationappa11.netlify.app",
   },
@@ -17,7 +17,7 @@ const projects = [
       "Developed a pet adoption platform with features for browsing pets, food, and accessories. Designed responsive UI and smooth navigation.",
     tech: "MERN Stack",
     image:
-      "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1200",
+      "/petpaw.png",
     github: "https://github.com/esha8di/petpaw-A10",
     live: "https://petcarea10.netlify.app",
   },
@@ -27,7 +27,7 @@ const projects = [
       "Created a dynamic React application using reusable components, state, and props. Implemented search and filter functionality.",
     tech: "React JS",
     image:
-      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200",
+      "/heroapp.png",
     github: "https://github.com/esha8di/heroAppOk",
     live: "https://heroappesha.netlify.app",
   },
