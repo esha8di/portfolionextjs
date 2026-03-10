@@ -8,8 +8,8 @@ const projects = [
     tech: "MERN Stack, JWT Authentication",
     image:
       "https://images.unsplash.com/photo-1581595219315-a187dd40c322?w=1200",
-    github: "#",
-    live: "#",
+    github: "https://github.com/esha8di/Blood-Donation-App",
+    live: "https://blooddonationappa11.netlify.app",
   },
   {
     title: "PetPaw",
@@ -18,8 +18,8 @@ const projects = [
     tech: "MERN Stack",
     image:
       "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1200",
-    github: "#",
-    live: "#",
+    github: "https://github.com/esha8di/petpaw-A10",
+    live: "https://petcarea10.netlify.app",
   },
   {
     title: "Hero App",
@@ -28,8 +28,8 @@ const projects = [
     tech: "React JS",
     image:
       "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200",
-    github: "#",
-    live: "#",
+    github: "https://github.com/esha8di/heroAppOk",
+    live: "https://heroappesha.netlify.app",
   },
 ];
 
@@ -37,7 +37,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20 text-white" data-aos="fade-up">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-3xl font-bold text-center text-primary mb-12">
           My Projects
         </h2>
 
@@ -45,34 +45,40 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition duration-300"
+              className="group bg-[#1b1b1c] rounded-xl shadow-md overflow-hidden w-full transition-all duration-300 hover:bg-[#2a2a2b]"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover"
-              />
+              {/* Image container */}
+              <div className="relative w-full h-48 overflow-hidden rounded-t-xl">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-105"
+                />
+              </div>
 
-              <div className="p-5 space-y-3">
-                <h3 className="text-xl font-semibold">{project.title}</h3>
+              {/* Content */}
+              <div className="p-5 space-y-2 text-left">
+                <h3 className="text-xl font-semibold text-primary transition-colors duration-300 group-hover:text-white">
+                  {project.title}
+                </h3>
 
-                <p className="text-gray-400 text-sm">
-                  {project.description}
-                </p>
+                <p className="text-gray-400 text-sm">{project.description}</p>
 
-                <p className="text-sm text-blue-400">{project.tech}</p>
+                <p className="text-sm text-secondary">{project.tech}</p>
 
                 <div className="flex gap-4 pt-2">
                   <a
+                   target="_blank"
                     href={project.github}
-                    className="px-4 py-2 bg-gray-800 rounded-lg text-sm hover:bg-gray-700"
+                    className="px-4 py-2 bg-[#2a2a2b] rounded-lg text-sm hover:bg-[#3a3a3a] transition"
                   >
                     GitHub
                   </a>
 
                   <a
                     href={project.live}
-                    className="px-4 py-2 bg-blue-600 rounded-lg text-sm hover:bg-blue-500"
+                     target="_blank"
+                    className="px-4 py-2 bg-[#ff014f] rounded-lg text-sm hover:bg-[#e60045] transition"
                   >
                     Live App
                   </a>
