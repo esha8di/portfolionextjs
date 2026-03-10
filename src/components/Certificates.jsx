@@ -5,13 +5,13 @@ const certificates = [
     title: "Career Track Program in Data Analytics",
     organization: "Shikho Technologies Bangladesh Ltd.",
     date: "10 May 2023",
-    image: "/Esha.jpeg",
+    image: "/dataanalytics.png",
   },
   {
     title: "Web Development With Programming Hero",
     organization: "Programming Hero",
     date: "16 Feb 2023",
-    image: "/Esha.jpeg",
+    image: "/ph.png",
   },
 ];
 
@@ -31,15 +31,7 @@ export default function Certificates() {
               mastering new skills and technologies.
             </p>
 
-            {/* BUTTON */}
-            <div className="mt-4">
-              <a
-                href="#certificates" // replace with relevant link if needed
-                className="inline-block px-5 py-2 bg-white text-primary font-medium rounded-lg hover:bg-gray-300 transition"
-              >
-                View Certificates
-              </a>
-            </div>
+            
           </div>
 
           {/* RIGHT SIDE */}

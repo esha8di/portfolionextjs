@@ -13,7 +13,8 @@ import Navbar from "@/components/Navbar";
         return ( 
         <> 
         <Navbar ></Navbar> 
-        <main className="max-w-[1152px] mx-auto px-4 mx-4 border text-primary">           
+        <main className="max-w-[1152px] mx-auto px-4 mx-4  text-primary"> 
+          
             <Banner></Banner> 
             <About></About> 
             <Educations></Educations> 
