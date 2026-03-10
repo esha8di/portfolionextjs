@@ -57,17 +57,17 @@ const Banner = () => {
             <span className="animate-pulse">|</span>
           </span>
 
-          <p className="tracking-widest mt-4 text-secondary"></p>
+          <p className="tracking-widest mt-4 text-secondary">I am a software developer passionate about building web applications that help people. My projects, like a blood donation platform and a pet adoption system, showcase my focus on creating practical, user-friendly solutions that make a real impact.</p>
         </div>
 
         {/* connect */}
         {/* Button above the social icons */}
-        <div className="mt-[100px]">
+        <div className="mt-[50px]">
           <a
             href="#contact"
-            className=" tracking-widest inline-block px-8 py-3 font-bold bg-[#1b1b1c] hover:bg-[#2a2a2b] shadow-2xl text-white font-bold rounded transition text-base border"
+             className="inline-block bg-white text-black hover:text-primary font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition-transform transform hover:scale-105 shadow-md"
           >
-            CONTACT ME
+            Contact Me
           </a>
         </div>
 
@@ -77,7 +77,7 @@ const Banner = () => {
           <div className="flex gap-6">
             {/* LinkedIn */}
             <a
-              href="https://linkedin.com/in/YOUR_LINK"
+              href="https://www.linkedin.com/in/shumin-nahar-esha-38b78422a"
               target="_blank"
               rel="noopener noreferrer"
               className="w-14 h-14 flex items-center justify-center
@@ -88,7 +88,7 @@ const Banner = () => {
 
             {/* GitHub */}
             <a
-              href="https://github.com/YOUR_USERNAME"
+              href="https://github.com/esha8di"
               target="_blank"
               rel="noopener noreferrer"
               className="w-14 h-14 flex items-center justify-center rounded-xl shadow-md 

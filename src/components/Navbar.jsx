@@ -8,8 +8,7 @@ const Navbar = () => {
       <div className="space-x-8">
         <NavLink href="#banner">HOME</NavLink>
         <NavLink href="#about">ABOUT</NavLink>
-        <NavLink href="#education">EDUCATION</NavLink>
-        <NavLink href="#experience">EXPERIENCE</NavLink>
+        <NavLink href="#education">EDUCATION&EXPERIENCE</NavLink>
         <NavLink href="#techskills">TECHSKILLS</NavLink>
         <NavLink href="#projects">PROJECTS</NavLink>
         <NavLink href="#contact">CONTACT</NavLink>
