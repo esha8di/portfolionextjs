@@ -10,7 +10,7 @@ const certificates = [
   {
     title: "Web Development With Programming Hero",
     organization: "Programming Hero",
-    date: "16 Feb 2023",
+    date: "16 Feb 2026",
     image: "/ph.png",
   },
 ];
