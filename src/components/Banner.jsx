@@ -46,10 +46,10 @@ const Banner = () => {
       <div>
         {/* text */}
         <div className="mt-[20px]">
-          <p className="text-secondary tracking-widest">WELCOME TO MY WORLD</p>
+          <p className="text-secondary tracking-widest"></p>
 
           <h2 className="text-4xl font-bold mt-4 text-white">
-            Hi, I'm <span className="text-[#ff014f]">SHUMIN NAHAR ESHA,</span>
+            Hi, I'm <span className="text-[#ff014f]">SHUMIN NAHAR ESHA</span>
           </h2>
 
           <span className="block text-white text-4xl font-semibold mt-2">
