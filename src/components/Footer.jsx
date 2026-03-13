@@ -9,7 +9,7 @@ export default function Footer() {
 
         {/* Left - Name */}
         <div className="text-lg font-semibold text-white">
-          Shumin Esha
+          Shumin Nahar Esha
         </div>
 
         {/* Center - Navigation */}
