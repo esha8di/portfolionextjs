@@ -24,7 +24,7 @@ export default function Certificates() {
 
           {/* LEFT SIDE */}
           <div className="flex flex-col justify-center space-y-6">
-            <h2 className="text-3xl font-bold text-primary">Certificates</h2>
+            <h2 className="text-3xl font-bold text-primary">Certifications</h2>
             <p className="text-secondary">
               Here are some of the certificates I have earned through
               my learning journey. They showcase my dedication to
