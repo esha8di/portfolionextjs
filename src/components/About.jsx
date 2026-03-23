@@ -9,7 +9,7 @@ const ABOUT = () => {
 
         {/* Title */}
         <div className="text-center">
-          <p className="text-secondary tracking-widest">Features</p>
+          <p className="text-secondary tracking-widest">Features hello</p>
           <h2 className="text-4xl font-bold text-primary mt-2">What I Do</h2>
         </div>
 
