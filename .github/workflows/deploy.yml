@@ -1,11 +1,30 @@
-name: Test Workflow
+name: Next.js CI/CD Pipeline
+
 on:
   push:
-    branches: [ dev ]
+    branches:
+      - dev
+      - staging
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - run: echo "Hello, GitHub Actions!"
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Show branch
+        run: echo "CI/CD running for branch ${{ github.ref }}"
