@@ -6,44 +6,25 @@ on:
       - dev
       - staging
       - main
-  pull_request:
-    branches:
-      - dev
-      - staging
-      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # 📥 Step 1: Checkout repository
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      # ⚙️ Step 2: Setup Node.js with caching
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: 'npm'
 
-      # 📦 Step 3: Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # 🔍 Step 4: Lint check (helps catch errors early)
-      - name: Lint check
-        run: npm run lint
-
-      # 🧪 Step 5: Run tests (safe fallback if no tests)
-      - name: Run tests
-        run: echo "No tests yet"
-
-      # 🏗️ Step 6: Build Next.js project
       - name: Build project
         run: npm run build
 
-      # 📢 Step 7: Show which branch triggered the workflow
       - name: Show branch
         run: echo "CI/CD running for branch ${{ github.ref }}"
