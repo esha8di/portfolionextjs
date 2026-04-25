@@ -23,6 +23,7 @@ import Navbar from "@/components/Navbar";
             <Certificates></Certificates> 
             <Contact></Contact> 
             <Footer></Footer> 
+            
             </main> 
             </> 
             ); 
