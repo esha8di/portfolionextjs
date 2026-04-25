@@ -27,7 +27,7 @@ const skills = [
 
 const TechSkills = () => {
   return (
-    <section id="techskills" className="pb-15 text-white" data-aos="fade-up">
+    <section id="techskills" className="pb-15 text-white scroll-mt-[200px]" data-aos="fade-up">
       <div className="max-w-4xl mx-auto px-4 text-center">
 
         <h2 className="text-4xl font-bold tracking-wide text-primary my-15">

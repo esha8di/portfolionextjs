@@ -38,7 +38,7 @@ const experience = [
 
 export default function EducationExperienceTimeline() {
   return (
-    <section id="education" className="py-24 text-secondary">
+    <section id="education" className="py-24 text-secondary scroll-mt-[100px]">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Section Title */}

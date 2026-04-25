@@ -4,7 +4,7 @@ import React from "react";
 
 const ABOUT = () => {
   return (
-    <section id="about" className="py-24 text-secondary" data-aos="fade-up">
+    <section id="about" className="py-24 text-secondary scroll-mt-[200px]" data-aos="fade-up">
       <div className="max-w-6xl mx-auto px-3 flex flex-col gap-12">
 
         {/* Title */}

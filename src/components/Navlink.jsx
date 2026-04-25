@@ -2,11 +2,11 @@
 
 import Link from 'next/link';
 
-const NavLink = ({ href, children }) => {
+const NavLink = ({ href, children, active }) => {
   return (
     <Link
       href={href}
-      className="text-secondary font-medium hover:text-white transition-colors"
+      className="font-medium transition-colors "
     >
       {children}
     </Link>

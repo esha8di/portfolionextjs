@@ -41,7 +41,7 @@ const Banner = () => {
   }, [charIndex, isDeleting, titleIndex]);
 
   return (
-    <div id="banner" className="md:grid  grid-cols-2   pt-30">
+    <div id="banner" className="md:grid  grid-cols-2   pt-30 ">
       {/* banner text */}
       <div>
         {/* text */}

@@ -35,7 +35,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-20 text-white" data-aos="fade-up">
+    <section id="projects" className="py-20 text-white scroll-mt-[200px]" data-aos="fade-up">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-primary mb-12">
           My Projects
